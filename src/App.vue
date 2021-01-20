@@ -22,8 +22,9 @@ html,body,#app {
 }
 
 body {
-  background: #1E2649;
-  padding-top:100px;
+  background: #f5f4f4;
+  // padding-top:100px;
+  margin: 0;
 }
 
 #app {

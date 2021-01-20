@@ -1,24 +1,30 @@
 <template>
-  <div class="home">
+  <div id="home">
     <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <Search v-if="currentTab === 0" @changeWeb="changeWeb" />
-    <SearchedWord v-else :searchedData="resultData" @back="back"/>
+    <Banner />
+    <Ranking />
+    <!-- <Search v-if="currentTab === 0" @changeWeb="changeWeb" />
+    <SearchedWord v-else :searchedData="resultData" @back="back"/> -->
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
-import Search from '@/components/Search.vue'
-import SearchedWord from '@/components/SearchedWord.vue'
+import Banner from '@/components/Banner.vue';
+import Ranking from '@/components/Ranking.vue';
+// import Search from '@/components/Search.vue'
+// import SearchedWord from '@/components/SearchedWord.vue'
 
 export default {
   name: 'Home',
   components: {
     // HelloWorld,
-    Search,
-    SearchedWord
+    Banner,
+    Ranking
+    // Search,
+    // SearchedWord
   },
   data() {
     return {
@@ -38,3 +44,17 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+body {
+  background: #f5f4f4;
+}
+#home {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+</style>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>ic/close</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ic/close" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#FFFFFF" cx="15" cy="15" r="15"></circle>
+        <path d="M15,5 C16.0041541,5 16.8181818,5.81402773 16.8181818,6.81818182 L16.818,13.181 L23.1818182,13.1818182 C24.1859723,13.1818182 25,13.9958459 25,15 C25,16.0041541 24.1859723,16.8181818 23.1818182,16.8181818 L16.818,16.818 L16.8181818,23.1818182 C16.8181818,24.1859723 16.0041541,25 15,25 C13.9958459,25 13.1818182,24.1859723 13.1818182,23.1818182 L13.181,16.818 L6.81818182,16.8181818 C5.81402773,16.8181818 5,16.0041541 5,15 C5,13.9958459 5.81402773,13.1818182 6.81818182,13.1818182 L13.181,13.181 L13.1818182,6.81818182 C13.1818182,5.81402773 13.9958459,5 15,5 Z" id="Combined-Shape" fill="#000000" transform="translate(15.000000, 15.000000) rotate(45.000000) translate(-15.000000, -15.000000) "></path>
+    </g>
+</svg>
